@@ -1,23 +1,29 @@
+/* creates a parent with row aligned children  */
 .flex-row {
   display: flex;
   flex-direction: row;
 }
 
+/* creates a parent with column aligned children */
 .flex-column {
   display: flex;
   flex-direction: column;
 }
 
+/* creates vertical and horizontal centering of children */ 
 .center-center {
   align-items: center;
   justify-content: center;
 }
 
+/* aligns children left horizontaly centered vertically */ 
 .start-center {
   align-items: flex-start;
   justify-content: flex-start
 }
 
+/* aligns children evenly spaced apart with no 
+edge gutters horizontaly and centered vertically */ 
 .center-space-between {
   align-items: content;
   justify-content: space-between;

@@ -1,0 +1,11 @@
+{
+  "name": "bouyant-css",
+  "version": "1.0.0",
+  "description": "A lightweight framework that speeds up development, built on  the principles of flex and utility classes over grid  based architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

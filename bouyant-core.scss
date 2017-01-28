@@ -1,0 +1,119 @@
+@for $i from 0 through 20 {
+  .mv-#{4 * $i} {
+    margin-top: #{4 * $i}px;
+    margin-bottom: #{4 * $i}px;
+  }
+
+  .mh-#{4 * $i} {
+    margin-right: #{4 * $i}px;
+    margin-left: #{4 * $i}px;
+  }
+
+  .pv-#{4* $i} {
+    padding-top: #{4 * $i}px;
+    padding-bottom: #{4 * $i}px;
+  }
+
+  .ph-#{4 * $i} {
+    padding-right: #{4 * $i}px;
+    padding-left: #{4 * $i}px;
+  }
+}
+
+// width twentieths
+@for $i from 1 through 20 {
+  .width-#{$i * 5} {
+    width: #{$i * 5%};
+  }
+}
+
+// width fourths
+@for $i from 1 through 3 {
+  .width-#{$i * 25} {
+    width: #{$i * 25%};
+  }
+}
+
+// width thirds
+@for $i from 1 through 2 {
+  .width-#{$i * 33} {
+    width: #{$i * 33%};
+  }
+} 
+
+// sets the main axis
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+}
+
+// first position description specifies alignment along the main axis
+// second position descriptioin specifies alignment along the cross-axis
+
+.space-between-center {
+  justify-content: space-between;
+  align-items: center;
+}
+.space-between-start {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.space-around-center {
+  justify-content: space-around;
+  align-content: center;
+}
+.space-around-start {
+  justify-content: space-around;
+  align-content: start;
+}
+
+.center-center {
+  justify-content: center;
+  align-items: center;
+}
+.center-end {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.start-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.start-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.start-end {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.end-start {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.end-center {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.end-start {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.end-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
